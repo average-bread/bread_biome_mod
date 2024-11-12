@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "bbm",
+  "version": "${version}",
+
+  "name": "Bread's Biomes Mod",
+  "description": "Adds new biomes",
+  "authors": [
+    "Bread (with a lot of help)"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+	"icon": "icon.png",
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+			"cursedbread.bbm.BBMMain"
+    ],
+		"beforeGameStart": [
+			"cursedbread.bbm.BBMMain"
+		],
+		"afterGameStart": [
+			"cursedbread.bbm.BBMMain"
+		],
+		"recipesReady": [
+			"cursedbread.bbm.BBMCrafts"
+		]
+	},
+  "mixins": [
+      "bbm.mixins.json"
+  ],
+
+  "depends": {
+		"minecraft": "^7.2-beta",
+    "fabricloader": ">=0.15.5"
+  },
+  "suggests": {
+  }
+}
