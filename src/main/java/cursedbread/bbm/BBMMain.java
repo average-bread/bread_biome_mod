@@ -1,14 +1,10 @@
 package cursedbread.bbm;
 
-import cursedbread.bbm.blocks.BBMBlocks;
-import cursedbread.bbm.items.BBMItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import turniplabs.halplibe.helper.BlockBuilder;
 import turniplabs.halplibe.util.ConfigHandler;
 import turniplabs.halplibe.util.GameStartEntrypoint;
-import turniplabs.halplibe.util.RecipeEntrypoint;
 
 import java.util.Properties;
 
@@ -33,6 +29,7 @@ public class BBMMain implements ModInitializer, GameStartEntrypoint {
         LOGGER.info("Biomes, I love biomes, I LOVE BIOMES, YEEEEEEEEEEEEEES");
 		new BBMBlocks().initilizeBlocks();
 		new BBMItems().initilizeItems();
+		new BBMBiomes().initilizeBiomes();
     }
 
 	@Override

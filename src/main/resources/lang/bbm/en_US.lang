@@ -1,2 +1,15 @@
+#indev biome
+
+tile.bbm.retro.cobble.name=Retro Cobblestone
+tile.bbm.retro.cobble.desc=Stone, smashed apart and reconstituted. Smells old.
+tile.bbm.retro.cobble.mossy.name=Retro Mossy Cobblestone
+tile.bbm.retro.cobble.mossy.desc=Cobblestone with added greenery. Smells old.
+tile.bbm.retro.bricks.name=Retro Clay Bricks
+tile.bbm.retro.bricks.desc=Stacked bricks of baked clay. Smells old.
+
+biome.bbm.indev=Indev Plains
+
+#mushroom biome
+
 tile.bbm.mycelium.name=Mycelium Block
 tile.bbm.mycelium.desc=Soft, spongy mycelium.

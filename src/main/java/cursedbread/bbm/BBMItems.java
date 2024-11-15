@@ -1,4 +1,4 @@
-package cursedbread.bbm.items;
+package cursedbread.bbm;
 
 public class BBMItems {
 

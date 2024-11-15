@@ -29,6 +29,9 @@
 		],
 		"recipesReady": [
 			"cursedbread.bbm.BBMCrafts"
+		],
+		"terrain-api": [
+			"cursedbread.bbm.TerrainApiStuff.TerrainApiStuff"
 		]
 	},
   "mixins": [
@@ -37,7 +40,8 @@
 
   "depends": {
 		"minecraft": "^7.2-beta",
-    "fabricloader": ">=0.15.5"
+    "fabricloader": ">=0.15.5",
+		"terrain-api": ">=1.4.4-7.2-pre1"
   },
   "suggests": {
   }
