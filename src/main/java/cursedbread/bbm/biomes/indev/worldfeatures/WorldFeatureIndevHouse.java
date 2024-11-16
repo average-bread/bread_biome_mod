@@ -10,8 +10,7 @@ import java.util.Random;
 public class WorldFeatureIndevHouse extends WorldFeature {
 	@Override
 	public boolean generate(World world, Random random, int x, int y, int z) {
-		int rand = random.nextInt(100);
-		if (rand <= 25 && world.getBlockId(x, y-1, z) == Block.grassRetro.id){
+		if (world.getBlockId(x, y-1, z) == Block.grassRetro.id){
 			int i;
 			int j;
 			int k;

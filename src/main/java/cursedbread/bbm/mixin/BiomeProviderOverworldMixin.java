@@ -16,6 +16,6 @@ public abstract class BiomeProviderOverworldMixin {
     @Shadow @Final private static BiomeRangeMap brm;
     @Inject(method="init",at=@At(value = "INVOKE",ordinal=0,target = "Lnet/minecraft/core/world/biome/data/BiomeRangeMap;lock()V"))
     private static void wishthisworks(CallbackInfo ci) {
-        brm.addRange(BBMBiomes.OVERWORLD_INDEV_PLAINS, new BiomeRange(0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.5));
+        brm.addRange(BBMBiomes.OVERWORLD_INDEV_PLAINS, new BiomeRange(0.9, 1.0, 0.9, 1.0, 0.0, 1.0, 0.0, 1.0));
    }
 }

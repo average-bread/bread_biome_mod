@@ -12,8 +12,8 @@ public class WorldFeatureBrickPyramid extends WorldFeature {
 	@Override
 	public boolean generate(World world, Random random, int x, int y, int z) {
 		int rand = random.nextInt(100);
-		int j1 = random.nextInt(50);
-		if (rand <= 10 && world.getBlockId(x, y - (j1/2), z) == Block.grassRetro.id){
+		int j1 = 5 + random.nextInt(10);
+		if (rand <= 5 && world.getBlockId(x, y - (j1/2), z) == Block.grassRetro.id){
 			int i;
 			int i1 = 0;
 			int j;
